@@ -1,3 +1,8 @@
+#NIM/Nama: 16026289/Abdus Salam Faiz
+#Tanggal: 30 September 2026
+#Deskripsi: Program ini menghitung PIN baru berdasarkan PIN lama dan nilai kunci yang diberikan.
+
+
 pin_lama = int(input("Masukkan PIN lama: "))
 nilai_kunci = int(input("Masukkan nilai kunci: "))
 
