@@ -18,5 +18,8 @@ if poin >= 30:
 if poin >= 10:
     c = poin // 10
     poin = poin % 10
+else:
+    print("Poin Nona Sal tidak cukup untuk ditukar dengan voucher apapun.")
+    exit()
 
 print(f"Nona Sal mendapat {a} Voucher A, {b} Voucher B, dan {c} Voucher C dengan sisa poin {poin}.")
