@@ -16,7 +16,7 @@ c_new = 0
 
 jumlah_digit = 100
 
-#Untuk mengetahui urutan digit
+# Untuk mengetahui urutan digit
 if a >= 10:
     a_baru = a
     jumlah_digit *= 10
@@ -36,9 +36,8 @@ else:
     c_baru = c * 11
 
 
-
-#Urutin jadiin ratusan/ribuan
-#Bilangan Pertama
+# Urutin jadiin ratusan/ribuan
+# Bilangan Pertama
 if a_baru > b_baru and a_baru > c_baru:
     if a < 10:
         a_new = a * jumlah_digit
@@ -48,7 +47,7 @@ if a_baru > b_baru and a_baru > c_baru:
         jumlah_digit = jumlah_digit // 100
     a_baru = 0
 elif b_baru > a_baru and b_baru > c_baru:
-    if  b < 10:
+    if b < 10:
         b_new = b * jumlah_digit
         jumlah_digit = jumlah_digit // 10
     else:
@@ -73,7 +72,7 @@ elif a_baru == b_baru:
             jumlah_digit = jumlah_digit // 100
         a_baru = 0
     else:
-        if  b < 10:
+        if b < 10:
             b_new = b * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -90,7 +89,7 @@ elif a_baru == c_baru:
             jumlah_digit = jumlah_digit // 100
         a_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -107,7 +106,7 @@ elif b_baru == c_baru:
             jumlah_digit = jumlah_digit // 100
         b_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -116,8 +115,8 @@ elif b_baru == c_baru:
         c_baru = 0
 
 
-#Urutin jadiin ratusan/ribuan
-#Bilangan Kedua
+# Urutin jadiin ratusan/ribuan
+# Bilangan Kedua
 if a_baru > b_baru and a_baru > c_baru:
     if a < 10:
         a_new = a * jumlah_digit
@@ -127,7 +126,7 @@ if a_baru > b_baru and a_baru > c_baru:
         jumlah_digit = jumlah_digit // 100
     a_baru = 0
 elif b_baru > a_baru and b_baru > c_baru:
-    if  b < 10:
+    if b < 10:
         b_new = b * jumlah_digit
         jumlah_digit = jumlah_digit // 10
     else:
@@ -152,7 +151,7 @@ elif a_baru == b_baru:
             jumlah_digit = jumlah_digit // 100
         a_baru = 0
     else:
-        if  b < 10:
+        if b < 10:
             b_new = b * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -169,7 +168,7 @@ elif a_baru == c_baru:
             jumlah_digit = jumlah_digit // 100
         a_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -186,7 +185,7 @@ elif b_baru == c_baru:
             jumlah_digit = jumlah_digit // 100
         b_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
             jumlah_digit = jumlah_digit // 10
         else:
@@ -194,8 +193,8 @@ elif b_baru == c_baru:
             jumlah_digit = jumlah_digit // 100
         c_baru = 0
 
-#Urutin jadiin ratusan/ribuan
-#Bilangan Ketiga
+# Urutin jadiin ratusan/ribuan
+# Bilangan Ketiga
 if a_baru > b_baru and a_baru > c_baru:
     if a < 10:
         a_new = a * jumlah_digit
@@ -203,7 +202,7 @@ if a_baru > b_baru and a_baru > c_baru:
         a_new = a * (jumlah_digit // 10)
     a_baru = 0
 elif b_baru > a_baru and b_baru > c_baru:
-    if  b < 10:
+    if b < 10:
         b_new = b * jumlah_digit
     else:
         b_new = b * (jumlah_digit // 10)
@@ -222,7 +221,7 @@ elif a_baru == b_baru:
             a_new = a * (jumlah_digit // 10)
         a_baru = 0
     else:
-        if  b < 10:
+        if b < 10:
             b_new = b * jumlah_digit
         else:
             b_new = b * (jumlah_digit // 10)
@@ -235,7 +234,7 @@ elif a_baru == c_baru:
             a_new = a * (jumlah_digit // 10)
         a_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
         else:
             c_new = c * (jumlah_digit // 10)
@@ -248,7 +247,7 @@ elif b_baru == c_baru:
             b_new = b * (jumlah_digit // 10)
         b_baru = 0
     else:
-        if  c < 10:
+        if c < 10:
             c_new = c * jumlah_digit
         else:
             c_new = c * (jumlah_digit // 10)
